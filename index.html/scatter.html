@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scatter Chart – Flow Duration vs Packet Size</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Scatter Chart – Flow Duration vs Packet Size</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="bars.html">Bar Charts</a>
+      <a href="scatter.html">Scatter Chart</a>
+      <a href="trends.html">Trend Charts</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Optimized Flow Duration vs Packet Size (Outliers Removed)</h2>
+      <div class="chart-container">
+        <img src="/Users/syamtejprakash/Desktop/images/Screenshot 2025-11-16 at 12.17.59 PM.png"
+             alt="Scatter chart: flow duration vs packet size colored by protocol">
+        <p class="chart-caption">
+          This scatter (bubble) chart plots <strong>Flow_Duration</strong> on the x-axis and
+          <strong>Packet_Size</strong> on the y-axis. Each point represents a single flow,
+          colored by protocol (SMTP, FTP, SSH, HTTP, MQTT, etc.), while marker size reflects
+          <strong>Packet_Count</strong>. Outliers were removed to focus on the main body of
+          the data. The points are spread across a wide range of durations and packet sizes,
+          indicating diverse traffic patterns across protocols rather than a single dominant
+          cluster.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Syam Tej – Visualization Project
+  </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bar Charts – Packet Count by Protocol</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bar Charts – Packet Count by Protocol</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="bars.html">Bar Charts</a>
+      <a href="scatter.html">Scatter Chart</a>
+      <a href="trends.html">Trend Charts</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Stacked Bar Chart – Packet Count by Protocol and Label</h2>
+      <div class="chart-container">
+        <img src="/Users/syamtejprakash/Desktop/images/Screenshot 2025-11-16 at 11.19.43 AM.png" alt="Stacked bar chart: packet count by protocol and label">
+        <p class="chart-caption">
+          This stacked bar chart shows total packet counts for each protocol (DNS, FTP, HTTP,
+          HTTPS, MQTT, SMTP, SSH), divided into <strong>Normal</strong> and <strong>Attack</strong>
+          traffic. The height of each bar represents the overall packet volume for that protocol,
+          while the colored segments reveal how much of that traffic is normal vs. attack. In our
+          dataset, normal traffic dominates for every protocol, but a noticeable portion of attack
+          packets is still present.
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2>Average CPU Usage Over Time of Day</h2>
+      <div class="chart-container">
+        <img src="/Users/syamtejprakash/Desktop/images/Screenshot 2025-11-16 at 12.19.30 PM.png"
+             alt="Line chart: average CPU usage over time of day by device type">
+        <p class="chart-caption">
+          This line chart tracks the <strong>average CPU usage</strong> for each device
+          type over the same time-of-day categories. It highlights when devices are most
+          active computationally. For instance, some devices show peaks in the evening,
+          suggesting heavier workloads or user activity during that period.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2025 Syam Tej  – Visualization Project
+  </footer>
+</body>
+</html>
